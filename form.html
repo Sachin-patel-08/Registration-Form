@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGISTRATION FORM</title>
+	<style >
+
+		
+		input[type=text],select,textarea{
+			width: 20%;
+			margin: 8px,0;
+			display: inline-block;
+			border:1px solid #ccc;
+			border-radius: 4px;
+
+		}
+		
+		div{
+			border-radius: 5px;
+			background-color: #ccc;
+			padding: 20px;
+		}
+
+	</style>
+</head>
+
+<body style="background: rgb(60,120,75,0.3);">
+
+<h1 style="text-align: center;">Sport Registration</h1>
+<div>
+<form   style="padding: 20px; margin: 10px; font-size: 20px; ">
+	
+<label>first Name: &nbsp</label><br>
+<input type="text" name="Enter Your Name" placeholder="enter first name"><br><br>
+<label>Middle Name: &nbsp</label><br>
+<input type="text" name="Enter Your Name" placeholder="enter middle name" ><br><br>
+
+<label>Last Name: &nbsp</label><br>
+<input type="text" name="Enter Your Name" placeholder="enter last name" autofocus><br><br>
+
+<label>Collage Name:</label><br>
+<input type="text" name="clg" value="Indus University"><br><br>
+
+Branch:<select type="dropdown" name="branch"  >
+	<option selected>CSE</option>
+	<option value="it">IT</option>
+	<option>MECH.</option>
+	<option>other</option>
+
+
+</select><br><br>
+En-No:<br><input type="text" name="En" placeholder="enroll number">
+
+<br><br>
+<label>Email:</label><br>
+<input type="email" name="email" placeholder="sheet123@gmail.com"><br><br>
+
+
+<label>Mobile No:</label><br>
+<input type="tel" name="mnumber" placeholder="9727858926" maxlength="10" ><br><br>
+
+
+Gender:<input type="radio" name="male">Male<input type="radio" name="male">Female<input type="radio" name="male">Other<br><br>
+
+Address: <br><textarea name="address" placeholder="your current address enter here..." rows="2" cols="20"></textarea><br><br>
+
+Sports Name:<select type="dropdown" name="select sport" >
+ 	<option selected>Cricket</option>
+ 	<option>hockey</option>
+ 	<option>Foot Ball</option>
+<option>Volly Ball</option>
+	<option>Chess</option>
+</select><br><br>
+
+Skill:<input type="range" name="skill" max="100" min="20"><br><br>
+
+<label>Adhar card upload:</label>
+<input type="file" name="adhar" accept="image/*"><br><br>
+Field: <textarea rows="2" cols="8" placeholder="enter your favorites place in your game..."></textarea><br><br>
+<input type="checkbox" name="per">Do you have a kit or not?(if yes then check)<br><br>
+
+<button type="button" onclick="alert('form is submitted:')">Submit</button>
+
+<input type="reset" name="res">
+
+
+</form>
+
+</div>
+
+
+</body>
+</html>
